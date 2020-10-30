@@ -7,7 +7,13 @@ import reportWebVitals from "./reportWebVitals";
 function App() {
   return (
     <div className="App">
-      <Weather />;
+      <Weather />
+      <p>
+        Open-source code by{" "}
+        <a href="https://github.com/everi1aj/weather-react.git">
+          Allison Everitt
+        </a>
+      </p>
     </div>
   );
 }
