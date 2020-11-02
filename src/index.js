@@ -1,19 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
+import App from "./App.css";
 import Weather from "./Weather";
+import "./weather.css";
+import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Weather />
-      <p>
-        Open-source code by{" "}
-        <a href="https://github.com/everi1aj/weather-react.git">
-          Allison Everitt
-        </a>
-      </p>
     </div>
   );
 }
