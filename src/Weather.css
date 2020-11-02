@@ -16,10 +16,12 @@
 }
 
 .Weather button {
+  position: relative;
+  bottom: 7px;
   background: #f99084;
   color: white;
   border-radius: 50px;
-  border: 1px solid #f3a39b;
+  border: 1px solid #fa9084;
   font-size: 14px;
   font-family: "Baloo Chettan 2", cursive;
 }
@@ -108,7 +110,7 @@
   left: 350px;
   top: 20px;
 }
-//hasnt been done yet
+
 #forecast-icon {
   position: relative;
   right: 23px;
