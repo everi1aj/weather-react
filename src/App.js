@@ -6,8 +6,8 @@ import "./illustration2.svg";
 export default function App() {
   return (
     <div className="App">
-      <div class="container">
-        <Weather city="Paris" />
+      <div className="container">
+        <Weather defaultCity="Paris" />
         <p>
           <a href="https://github.com/everi1aj/weather-react.git">
             Open-source{" "}
