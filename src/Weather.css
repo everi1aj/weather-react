@@ -15,18 +15,53 @@
   );
 }
 
+.Weather button {
+  background: #f99084;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid #f3a39b;
+  font-size: 14px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+.city {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 32px;
+  font-weight: 100;
+  color: #3f3d56;
+  margin: 0 auto;
+  position: relative;
+  bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Baloo Chettan 2";
+  position: relative;
+  bottom: 20px;
+}
+
+.Weather img {
+  width: 30%;
+  position: relative;
+  right: 10px;
+  bottom: 25px;
+}
+
 .temperature {
   font-size: 45px;
   font-weight: 400;
-  position: relative;
-  right: 5px;
-  bottom: 15px;
   color: #3f3d56;
+  font-family: "Baloo Chettan 2";
+  position: relative;
+  bottom: 25px;
 }
+
 .Weather .units {
   position: relative;
   left: 5px;
-  bottom: 35px;
+  bottom: 50px;
   font-size: 12.5px;
 }
 
@@ -40,56 +75,40 @@
   color: #0356b3;
 }
 
-#conditions {
-  position: relative;
-  bottom: 30px;
-  font-size: 24px;
+.Weather .humidity {
+  font-size: 16px;
   color: #3f3d56;
   font-family: "Baloo Chettan 2";
   font-style: italic;
+  list-style: none;
 }
 
-#conditions2 {
-  position: relative;
-  bottom: 50px;
-  font-size: 24px;
+.Weather .wind {
+  font-size: 16px;
   color: #3f3d56;
   font-family: "Baloo Chettan 2";
   padding-top: 5px;
   font-style: italic;
+  list-style: none;
 }
 
-#weather-conditions {
-  font-style: italic;
-  left: 10px;
-  top: 10px;
-}
-
-#current-button {
-  background: #f99084;
-  color: white;
-  border-radius: 50px;
-  border: 1px solid #f3a39b;
-  font-size: 14px;
-  font-family: "Baloo Chettan 2", cursive;
-}
-
-#icon {
+.date {
+  font-size: 16px;
+  color: #3f3d56;
+  font-family: "Baloo Chettan 2";
+  list-style: none;
   position: relative;
-  right: 10px;
-  top: 10px;
+  left: 135px;
+  top: 27px;
 }
 
-#background-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.icon {
   width: 40%;
   position: relative;
-  bottom: 70px;
-  left: 55px;
+  left: 350px;
+  top: 20px;
 }
-
+//hasnt been done yet
 #forecast-icon {
   position: relative;
   right: 23px;

@@ -1,18 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.css";
-import Weather from "./Weather";
-import "./weather.css";
+import "./App.css";
+import App from "./App";
+import "./illustration2.svg";
+import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
-
-export default function App() {
-  return (
-    <div className="App">
-      <Weather />
-    </div>
-  );
-}
 
 ReactDOM.render(
   <React.StrictMode>

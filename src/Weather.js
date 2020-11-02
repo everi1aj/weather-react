@@ -2,6 +2,7 @@ import React from "react";
 import "./Weather.css";
 import axios from "axios";
 import "./App.css";
+import "./illustration2.svg";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -43,12 +44,15 @@ export default function Weather(props) {
           <div className="col-3">
             <button>Current Location</button>
           </div>
+          <img
+            src="./illustration2.svg"
+            alt="weather-icon"
+            className="icon"
+          ></img>
         </div>
       </form>
-      <h1> {weatherData.city} </h1>
-      <ul>
-        <li> {weatherData.description} </li>
-      </ul>
+      <h1 className="city"> {weatherData.city} </h1>
+      <span className="description"> {weatherData.description} </span>
       <div className="row">
         <div className="col-6">
           <img
@@ -69,23 +73,30 @@ export default function Weather(props) {
           </span>
         </div>
         <div className="col-6">
-          <img src="illustration2.svg" alt="woman-icon" />
           <ul>
             <li>
-              Humidity Icon
-              <i className="fas fa-tint"></i>:
-              <span>{weatherData.humidity}</span>%
+              <span className="humidity">
+                H Icon
+                <i className="fas fa-tint"></i>:
+                <span> {weatherData.humidity}</span>%
+              </span>
             </li>
             <li>
-              {" "}
-              Wind Icon
-              <i className="fas fa-wind"></i> :<span>{weatherData.wind}</span>{" "}
-              km/h
+              <span className="wind">
+                {" "}
+                W Icon:
+                <i className="fas fa-wind"></i> <span>{weatherData.wind}</span>{" "}
+                km/h
+              </span>
             </li>
           </ul>
         </div>
       </div>
-      <li> {weatherData.date} </li>
+      <span className="date">
+        <ul>
+          <li> {weatherData.date} </li>
+        </ul>
+      </span>
     </div>
   );
 }
