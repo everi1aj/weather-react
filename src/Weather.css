@@ -1,27 +1,24 @@
 .Weather {
-  border: 1px solid #fa8c80;
+  border: 1px solid #ff754f;
   border-radius: 25px;
   padding: 20px;
   margin: 20px auto;
   max-width: 500px;
-  background: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+  background-image: linear-gradient(
+    to top,
+    #bdc2e8 0%,
+    #bdc2e8 1%,
+    #e6dee9 100%
   );
 }
 
 .Weather button {
   position: relative;
   bottom: 7px;
-  background: #f99084;
+  background: #ff754f;
   color: white;
   border-radius: 50px;
-  border: 1px solid #fa9084;
+  border: 1px solid #ff754f;
   font-size: 14px;
   font-family: "Baloo Chettan 2", cursive;
 }
@@ -41,14 +38,14 @@
   font-weight: 100;
   font-family: "Baloo Chettan 2";
   position: relative;
-  bottom: 20px;
+  bottom: 15px;
 }
 
 .Weather img {
-  width: 30%;
+  width: 35%;
   position: relative;
-  right: 10px;
-  bottom: 25px;
+  bottom: 20px;
+  right: 20px;
 }
 
 .temperature {
@@ -57,13 +54,14 @@
   color: #3f3d56;
   font-family: "Baloo Chettan 2";
   position: relative;
-  bottom: 25px;
+  bottom: 15px;
+  right: 25px;
 }
 
 .Weather .units {
   position: relative;
-  left: 5px;
-  bottom: 50px;
+  right: 20px;
+  bottom: 40px;
   font-size: 12.5px;
 }
 
@@ -96,12 +94,13 @@
 
 .date {
   font-size: 16px;
-  color: #3f3d56;
+  color: #ff744e;
   font-family: "Baloo Chettan 2";
   list-style: none;
   position: relative;
-  left: 135px;
+  left: 75px;
   top: 27px;
+  letter-spacing: 1px;
 }
 
 .icon {

@@ -49,7 +49,7 @@ export default function Weather(props) {
                 placeholder="Enter city here..."
                 autoFocus="on"
                 autoComplete="off"
-                className="form-control shadow-sm"
+                className="form-control shadow sm w-100"
                 onChange={handleCityChange}
               />
             </div>
