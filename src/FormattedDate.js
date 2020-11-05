@@ -11,16 +11,14 @@ export default function FormattedDate(props) {
     "Saturday",
   ];
   let day = days[props.date.getDay()];
-  let hours = ((props.date.getHours() + 11) % 12) + 1;
-  let minutes = props.date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
+  let time = props.date.toLocaleString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  });
   return (
     <div>
-      <i>
-        Last Updated: {day} {hours}:{minutes}
-      </i>
+      {day} {time}
     </div>
   );
 }
