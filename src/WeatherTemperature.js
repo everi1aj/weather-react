@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Weather.css";
-import "./illustration.svg";
 
 export default function WeatherTemperature(props) {
   const [unit, setUnit] = useState("fahrenheit");
