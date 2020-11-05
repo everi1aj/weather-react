@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import App from "./App";
-import "./illustration2.svg";
 import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";

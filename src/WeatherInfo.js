@@ -1,5 +1,8 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
+import "./Weather.css";
+import "./illustration.svg";
 
 export default function WeatherInfo(props) {
   return (
@@ -13,29 +16,19 @@ export default function WeatherInfo(props) {
             alt={props.data.description}
             className="float-left"
           />
-
-          <span div className="temperature">
-            {props.data.temperature}
-          </span>
-          <span div className="units">
-            <a href="/" className="active">
-              F{" "}
-            </a>
-            | <a href="/">C </a>
-          </span>
+          <WeatherTemperature fahrenheit={props.data.temperature} />
         </div>
         <div className="col-6">
           <ul>
             <li>
               <span className="humidity">
-                <i className="fas fa-tint"></i>:
+                <i className="fas fa-tint"></i> :
                 <span> {props.data.humidity}</span>%
               </span>
             </li>
             <li>
               <span className="wind">
-                {" "}
-                <i className="fas fa-wind"></i>: <span>{props.data.wind}</span>{" "}
+                <i className="fas fa-wind"></i> :<span>{props.data.wind}</span>{" "}
                 km/h
               </span>
             </li>
