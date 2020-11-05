@@ -28,7 +28,6 @@ export default function WeatherInfo(props) {
           <ul>
             <li>
               <span className="humidity">
-                H Icon
                 <i className="fas fa-tint"></i>:
                 <span> {props.data.humidity}</span>%
               </span>
@@ -36,8 +35,7 @@ export default function WeatherInfo(props) {
             <li>
               <span className="wind">
                 {" "}
-                W Icon:
-                <i className="fas fa-wind"></i> <span>{props.data.wind}</span>{" "}
+                <i className="fas fa-wind"></i>: <span>{props.data.wind}</span>{" "}
                 km/h
               </span>
             </li>
