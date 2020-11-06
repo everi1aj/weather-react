@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 import "./illustration2.svg";
+import "./WeatherForecast.css";
 
 export default function App() {
   return (

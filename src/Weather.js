@@ -4,6 +4,7 @@ import axios from "axios";
 import "./App.css";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import illustration2 from "./illustration2.svg";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -61,7 +62,7 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-3">
-              <button>Current Location</button>
+              <img src={illustration2} alt="weather-icon" className="cloud" />
             </div>
           </div>
         </form>
