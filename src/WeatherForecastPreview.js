@@ -19,9 +19,11 @@ export default function WeatherForecastPreview(props) {
   }
   return (
     <div className="WeatherForecastPreview col">
-      {hours()}
+      <p>{hours()}</p>
       <WeatherIcons code={props.data.weather[0].icon} />
-      {temperature()}
+      <p>
+        <strong>{temperature()}</strong>
+      </p>
     </div>
   );
 }
