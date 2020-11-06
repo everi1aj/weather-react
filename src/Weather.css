@@ -34,7 +34,7 @@
 }
 
 .Weather img {
-  width: 45%;
+  width: 50%;
   position: relative;
   bottom: 25px;
   right: 20px;
@@ -46,14 +46,14 @@
   color: #3f3d56;
   font-family: "Baloo Chettan 2";
   position: relative;
-  bottom: 25px;
+  bottom: 15px;
   right: 25px;
 }
 
 .WeatherTemperature .unit {
   position: relative;
   left: -20px;
-  bottom: 60px;
+  bottom: 50px;
   font-size: 12.5px;
   font-family: "Baloo Chettan 2";
 }
@@ -65,7 +65,7 @@
   list-style: none;
   position: relative;
   left: 80px;
-  bottom: 40px;
+  bottom: -1px;
 }
 
 .Weather .wind {
@@ -76,7 +76,7 @@
   list-style: none;
   position: relative;
   left: 75px;
-  bottom: 40px;
+  bottom: -1px;
 }
 
 .Weather .date {
